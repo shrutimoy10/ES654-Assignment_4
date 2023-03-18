@@ -48,6 +48,6 @@ NOTE : The functions that are to be implemented in the following, must be writte
 
 **5.**  Use the above code and for degree = 1, 3, 5, 7, 9, plot magnitude of  the norm of parameter vector, theta v/s degree for varying N, where N is the size of the data set (size of x, and thus y). What can you conclude? Edit Q5_plot.py [0.5 marks]
 
-**6.**  Using StandardScaler() from sklearn, run any of the regression algorithms above and plot the errors with normalized as well as unnormalized data, for the same algorithm. Edit Q6_input_normalize.py [0.5 marks]
+**6.**  Using StandardScaler() from sklearn, run any of the regression algorithms above. Use the diabetes dataset, available in sklearn for the regression problem. Note that you have to set scaled=False. Also,report the errors with and without normalizing. Edit Q6_input_normalize.py [0.5 marks]
 
 **7.**  Consider the [Minimum Daily Temperatures dataset](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv) from Australia. This is a dataset for a forecasting task. That is, given temperatures up to date T, design a forecasting (autoregressive) model to predict the temperature on date T+k (for some k > 0). You can refer to [link 1](https://www.turing.com/kb/guide-to-autoregressive-models), [link 2](https://otexts.com/fpp2/AR.html) for more information on autoregressive models. Apply your favorite regression technique defined in the previous questions. Plot the fit of your predictions vs the true values and report the RMSE. Edit Q7_forecast.py [1 marks]
